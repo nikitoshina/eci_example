@@ -1,6 +1,7 @@
 ```{r}
 library(tidyverse)
 source("styles.R")
+print("Hello")
 theme_set(theme_Publication() + theme(legend.title = element_blank()))
 ```
 
